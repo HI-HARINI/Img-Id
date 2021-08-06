@@ -26,6 +26,6 @@ function gotResult(error,results){
     }
     else{
         console.log(results)
-        document.getElementById("objectname").innerHTML=results[0]
+        document.getElementById("objectname").innerHTML=results[0].label
     }
 }
