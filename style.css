@@ -44,5 +44,8 @@ body{
     margin-top: 30px;
     border-radius: 20px;
     margin-left: 30px;
-    box-shadow: 5px 5px 5px white;
+    box-shadow: 5px 5px 5px rgb(141, 113, 113);
+}
+#objectname{
+    font-size: 30px;
 }
