@@ -21,11 +21,14 @@ function check(){
     classifier.classify(img,gotResult)
 }
 function gotResult(error,results){
+ 
     if(error){
-        console.error(error)
+        console.log(error)
     }
     else{
+        var res=results[0].label
         console.log(results)
-        document.getElementById("objectname").innerHTML=results[0]
+        document.getElementById("objectname").innerHTML=res
+        console.log(results[0])
     }
 }
